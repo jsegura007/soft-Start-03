@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #444;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #66ccff;
+}
+
+main {
+    padding: 2em;
+}
+
+h1 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+select {
+    padding: 0.5em;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#logo {
+    position: absolute;
+    top: 5px; /* Ajusta según sea necesario */
+    right: 50px; /* Ajusta según sea necesario */
+    width: 200px; /* Ajusta según sea necesario */
+    height: auto;
+}
